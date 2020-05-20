@@ -1,0 +1,262 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+}
+
+body
+{
+	background-color: white;
+}
+
+.website_body
+{
+	background-color: #D6EAD6;
+	width: 95%;
+	margin: 0 auto;
+}
+
+.website_head_body
+{
+	background-color: #99CC99;
+	border-radius: 10px;
+	margin-top: 10px;
+}
+
+.website_head 
+{
+	/*background-color: ;*/
+	padding-top: 50px;
+
+	padding-bottom: 60px;
+	font-size: 2em;
+	margin: 0 auto;
+	min-width: 0;
+	width: auto;
+	display: table;
+	/*background-color: red;*/
+}
+
+.extra_space
+{
+	height: 10px;
+	background-color: white;
+	margin-bottom: 20px;
+}
+
+
+.website_body_whole
+{
+
+	width: auto;
+	min-width: 0;
+	margin: 0 auto;
+	display: table;
+}
+
+
+
+.right_side_info
+{
+	/*text-align: center;*/
+	/*font-size: 2em;*/
+	width: 500px;
+	/*height: 500px;*/
+	margin-right: 13px;
+	display: inline-block;
+	border-radius: 10px;
+
+}
+
+.right_website_info
+{
+	font-size: 2em;
+	text-align: center;
+	padding-bottom: 50px; 
+	padding-top: 50px;
+	background-color: #FBFCF0;
+	border-radius: 10px;
+
+
+}
+
+
+.info_question
+{
+	padding-bottom: 20px;
+	padding-top: 20px;
+	width: 450px;
+	margin-top: 20px;
+	font-size: 1.5em;
+	background-color: #FBFCF0;
+	padding-left: 50px;
+	border-radius: 10px;
+
+}
+
+
+.info_question input[type=text]
+{
+
+  	box-sizing: border-box;
+  	border: 1px solid black;
+  	border-radius: 5px;
+  	font-size: 1em;
+  	background-color: white;
+  	margin-top: 10px;
+
+
+  	padding: 5px 10px 5px 5px;
+
+}
+
+
+
+
+
+
+.extra_space_vert
+{
+	width: 10px;
+	height: 500px;
+	background-color: white;
+	display: inline-block;
+	border-radius: 10px;
+	/*padding-top: -20px;*/
+	vertical-align: top;
+}
+
+.left_side_questionnaire
+{
+
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 10px;
+
+
+}
+
+
+
+
+
+
+.my_name
+{
+	/*background-color: red;*/
+	font-size: 1em;
+}
+
+
+
+
+.website_info_picture
+{
+
+	display: block;
+	width: auto;
+	min-width: 0;
+	background-color: #FBFCF0;
+	margin: 0 auto;
+	display: table;
+	padding-left: 20px;
+	padding-right: 20px; 
+	border-radius: 10px;
+}
+
+.website_info
+{
+	display: inline-block;
+	/*background-color: red;*/
+	font-size: 2em;
+	text-align: center;
+	vertical-align: bottom;
+	padding-bottom: 50px; 
+	padding-top: 50px; 
+
+}
+
+.website_picture
+{
+	display: inline-block;
+	/*background-color: blue;*/
+	width: 400px;
+	padding: 20px;
+	padding-right: 0px;
+
+}
+
+
+
+
+
+.website_questionnaire
+{
+	/*padding-left: 20px;*/
+}
+
+.long_question
+{
+	padding-bottom: 20px;
+	padding-top: 20px;
+	font-size: 1.5em;
+	background-color: #FBFCF0;
+	min-width: 0;
+	width: auto;
+	display: table;
+	margin: 0 auto;
+	margin-top: 20px;
+	padding-left: 50px;
+	padding-right: 350px;
+	border-radius: 10px;
+
+}
+
+.long_question textarea
+{
+	font-size: 1em;
+	border-radius: 10px;
+	padding: 10px;
+	max-height: 195px;
+	max-width: 500px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*#FBFCF0*/
+
+/*#AE6666*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

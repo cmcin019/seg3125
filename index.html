@@ -1,1 +1,138 @@
-Hello World
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Questionnaire</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	    <!-- <script type="text/javascript" src="JS/micro.js"></script> -->
+	</head>
+
+	<body>
+		<div class="website_body">
+			
+
+			<div class="website_head_body">
+				<div class="website_head">
+					<h2>Welcom To My Website-Analysis Questionnaire</h2>
+					<span class="my_name">By Cristopher McIntyre Garcia</span>
+				</div>
+			</div>
+			<div class="extra_space"></div>
+
+			<div class="website_body_whole">
+
+				<div class="right_side_info">
+					<div class="right_website_info">
+						<span>Please consider entering this addiotional information for statistical purposes.</span>
+
+					</div>
+
+					<div class="info_question">
+						<span>Insert your age here.</span><br>
+						<input type="text" name="person_age" placeholder="Enter here .. ">
+
+					</div>
+
+					<div class="info_question">
+						<span>Insert your sexe and year of study.</span><br>
+						  <select id="sexe" name="sexe">
+						    <option value="Male">Male</option>
+						    <option value="Female">Female</option>
+						</select>
+						<select id="year" name="year">
+						    <option value="Male">Male</option>
+						    <option value="Female">Female</option>
+						</select>
+
+					</div>
+
+					<div class="info_question">
+						<span>Insert your age here.</span><br>
+						<input type="text" name="person_age" placeholder="Enter here .. ">
+
+					</div>
+					
+
+				</div>
+
+				<div class="extra_space_vert"></div>
+
+				<div class="left_side_questionnaire">
+					
+
+
+
+					<div class="website_info_picture">
+						
+						<div class="website_info">
+							
+							<span>Help us make the UOttawa <br>website better. You can open the website <br>in a new tab by clicking on the <br>picture provided. <br>Thank you for your time and effort. <br>Go GeeGees. </span>
+
+						</div>
+
+						<div class="website_picture">
+							
+							<a href="https://www.uottawa.ca/en" target="_blank"> <img src="uottawa_home.png" width="400px" alt="Uottawa home page" style="border-radius: 5px;"></a>
+
+
+						</div>
+
+					</div>
+					
+					<div class="website_questionnaire">
+
+						<form action="Includes/addNewFood.inc.php" method="POST">
+
+
+							<div class="long_question">
+
+								<span>Q1. What do you think are the strength of this User Interface?</span> <br> <br>
+							    <input type="radio" name="q1" id="track" value="track" /> <label for="track">Track Submission</label><br>
+							    <input type="radio" name="q1" id="event" value="event"  /> <label for="event">Events and Artist booking</label><br>
+							    <input type="radio" name="q1" id="message" value="message" /> <label for="message">Message us</label><br>
+							    <input type="radio" name="q1" id="message" value="message" /> <label for="message">Message us</label><br>
+							</div>
+							<div class="long_question">
+
+								<span>Q2. What do you think are the strength of this User Interface?</span> <br> <br>
+							    <input type="radio" name="q2" id="track" value="track" /> <label for="track"> Track Submission</label><br>
+							    <input type="radio" name="q2" id="event" value="event"  /> <label for="event">Events and Artist booking</label><br>
+							    <input type="radio" name="q2" id="message" value="message" /> <label for="message">Message us</label><br>
+							    <input type="radio" name="q2" id="message" value="message" /> <label for="message">Message us</label><br>
+						  	
+						  	</div>
+
+
+							<div class="long_question">
+								<span>Q1. What do you think are the strength of this User Interface?</span> <br> <br>
+								<textarea name="ui_strength" rows="7" cols="40" placeholder="Plese enter your answer here"></textarea>				
+							</div>
+							<div class="long_question">
+								<span>Q2. What do you think are the flaws of this User Interface?</span> <br> <br>
+								<textarea name="ui_flaws" rows="7" cols="40" placeholder="Plese enter your answer here"></textarea>				
+							</div>
+
+						</form>
+
+					</div>
+
+
+
+
+
+				</div>
+			</div>
+
+
+
+
+
+		</div>
+	</body>
+
+
+
+
+
+
+</html>
