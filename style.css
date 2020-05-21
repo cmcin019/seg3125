@@ -329,7 +329,13 @@ label
 }
 
 
-
+.link_web
+{
+	width: auto;
+	min-width: 0;
+	display: table;
+	margin: auto;
+}
 
 
 
