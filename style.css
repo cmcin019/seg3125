@@ -120,14 +120,6 @@ body
 
 }
 
-.info_question select
-{
-
-	/*margin-right: 10px;*/
-
-}
-
-
 .info_question input[type=text]
 {
 
@@ -143,15 +135,22 @@ body
 
 }
 
-
-
+.info_question textarea
+{
+	margin-top: 20px;
+	font-size: 1em;
+	border-radius: 10px;
+	padding: 10px;
+	max-height: 195px;
+	max-width: 370px;
+}
 
 
 
 .extra_space_vert
 {
 	width: 10px;
-	height: 500px;
+	height: 2060px;
 	background-color: white;
 	display: inline-block;
 	border-radius: 10px;
@@ -249,7 +248,7 @@ body
 	border-radius: 10px;
 	padding: 10px;
 	max-height: 195px;
-	max-width: 500px;
+	max-width: 880px;
 
 }
 
@@ -278,14 +277,11 @@ body
 .website_footer
 {
 
-	padding-top: 50px;
+	padding-top: 10px;
 
 	padding-bottom: 60px;
 	font-size: 1em;
-	margin: 0 auto;
-	min-width: 0;
-	width: auto;
-	display: table;
+	margin-left: 20px;
 
 }
 
@@ -303,9 +299,10 @@ body
 /*#AE6666*/
 
 
-
-
-
+label
+{
+	vertical-align: middle;
+}
 
 
 
