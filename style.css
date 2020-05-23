@@ -51,7 +51,7 @@ body
 
 	min-width: 0;
 	padding: 20px;
-	border-radius: 1%;
+	border-radius: 10px;
 	background-color: #D6EAD6;
 }
 
@@ -109,7 +109,7 @@ body
 .or_info
 {
 	/*background-color: #FBFCF0;*/
-	border-radius: 10%;
+	border-radius: 10px;
 	text-align: center;
 	width: auto;
 	min-width: 0;
@@ -150,7 +150,7 @@ body
 .extra_space_vert
 {
 	width: 10px;
-	height: 2130px;
+	height: 2145px;
 	background-color: white;
 	display: inline-block;
 	border-radius: 10px;
@@ -339,9 +339,40 @@ label
 
 
 
+.right_side_info_cop
+{
+	display: none;
+}
+
+@media only screen and (max-width: 1640px) {
+
+
+/*.website_head_body
+{
+	background-color: red;
+	border-radius: 10px;
+	margin-top: 10px;
+}*/
+
+.right_side_info
+{
+	display: none;
+}
+
+.extra_space_vert
+{
+	display: none;
+}
+
+.right_side_info_cop
+{
+	display: block;
+}
 
 
 
+
+}
 
 
 
