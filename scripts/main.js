@@ -104,12 +104,11 @@ function populateListProductChoices(slct1, slct3, slct2, slct4) {
 
 			openInfo(event, 'Item'); 
 
-
-		   if($(window).scrollTop() + $(window).height() >= $(document).height()-5) {
-		   	document.getElementById("footer").style.display = "block";
-		   } else {
-		   	document.getElementById("footer").style.display = "none";
-		   }
+		    if($(window).scrollTop() + $(window).height() >= $(document).height()-5) {
+		   		document.getElementById("footer").style.display = "block";
+		    } else {
+		   		document.getElementById("footer").style.display = "none";
+		    }
 
 
 
@@ -128,13 +127,6 @@ function populateListProductChoices(slct1, slct3, slct2, slct4) {
 		s2.appendChild(spa2);
 		s2.appendChild(spa);
 
-
-
-
-
-
-
-		
 		// create a breakline node and add in HTML DOM
 		// s2.append("</button>");
 		s2.appendChild(document.createElement("br"));    
@@ -195,25 +187,4 @@ function updateProductPrice(prodName, price) {
 	elem.innerHTML = tmp.toFixed(2);
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
