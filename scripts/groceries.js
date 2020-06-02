@@ -135,19 +135,19 @@ function restrictListProducts(prods, restriction, orgRes, sort) {
 
 			if ((restriction == "Vegetarian") && (prods[i].vegetarian == true)){
 				product_names.push(prods[i].name);
-				product_names.push(prods[i].price);
+				product_names.push(prods[i].price.toFixed(2));
 			}
 			else if ((restriction == "GlutenFree") && (prods[i].glutenFree == true)){
 				product_names.push(prods[i].name);
-				product_names.push(prods[i].price);
+				product_names.push(prods[i].price.toFixed(2));
 			}
 			else if (restriction == "None"){
 				product_names.push(prods[i].name);
-				product_names.push(prods[i].price);
+				product_names.push(prods[i].price.toFixed(2));
 			}
 			else if ((restriction == "GlutenMeatFree") && (prods[i].glutenFree == true) && (restriction == "GlutenMeatFree") && (prods[i].vegetarian == true)){
 				product_names.push(prods[i].name);
-				product_names.push(prods[i].price);
+				product_names.push(prods[i].price.toFixed(2));
 			}
 		}
 	}

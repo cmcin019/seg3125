@@ -31,18 +31,6 @@ function openInfo(evt, tabName) {
    }
 });
 
-
-
-
-
-
-
-
-
-
-
-
-	
 // generate a checkbox list from a list of products
 // it makes each product name as the label for the checkbos
 
@@ -155,7 +143,7 @@ function populateListProductChoices(slct1, slct3, slct2, slct4) {
 	var extra = document.getElementById('extra');
 	extra.innerHTML = '<br><i>* Press on the item for more details</i>';
 	document.getElementById("addCart").style.display = "block";
-
+	document.getElementById("reset").style.display = "block";
 	openInfo(event, 'Products');
 }
 	
