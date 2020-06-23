@@ -1,0 +1,311 @@
+
+body
+{
+	background-color: #F2E1AE;
+}
+
+.wrapper
+{
+	width: 80%;
+	margin: 0 auto;
+}
+
+.bike-logo
+{
+	font-size: 2.4em;
+}
+
+nav h1
+{
+	display: inline-block;
+	margin-left: 10px;
+}
+
+.web-info span
+{
+	font-size: 1.1em;
+}
+
+.gre-banner
+{
+	background-color: #5B5B5B;
+	color: white;
+	border-radius: 15px 0 0 15px;
+	padding: 10px;
+}
+
+.yel-banner
+{
+	border: 2px solid #5B5B5B;
+	color: #5B5B5B;
+	background-color: #EACE78;
+	border-radius: 0 15px 15px 0;
+	padding: 10px;
+}
+
+.web-body
+{
+	text-align: center;
+	margin-top: 20px;
+}
+
+.web-body .service-row .option
+{
+	background-color: #EACE78;
+	border-top: 2px solid #5B5B5B;
+	border-bottom: 2px solid #5B5B5B;
+	color: #5B5B5B;
+	font-size: 1.4em;
+	padding: 12px;
+}
+
+.web-body .service-row .option:first-of-type
+{
+	border-left: 2px solid #5B5B5B;
+	border-radius: 15px 0 0 15px;
+}
+
+.web-body .service-row .option:last-of-type
+{
+	border-right: 2px solid #5B5B5B;
+	border-radius: 0 15px 15px 0;
+}
+
+.web-body .span-wrapper
+{
+	width: 100%;
+	/*background-color: green;*/
+	/*padding: 10px;*/
+	border-radius: 15px;
+}
+
+img
+{
+	/*margin-top: 10px;*/
+	border-radius: 15px;
+	transition: .5s ease;
+	opacity: 0.5;
+	height: 0;
+	display: block;
+	background-color: #fff;
+}
+
+.web-body:hover img
+{
+	display: block;
+	object-fit: cover;
+	height: 275px;
+	margin-top: 10px;
+	/*display: block;*/
+}
+
+
+.frame-opt:hover img, .breaks-opt:hover img, .wheels-opt:hover img, .bike-opt:hover img
+{
+	opacity: 1;
+}
+
+
+
+.option-info
+{
+	background-color: #5B5B5B;
+	color: #fff;
+	padding: 15px;
+	margin-left: -15px;
+	margin-right: -15px;
+	border-radius: 15px;
+	margin-top: 20px;
+	/*border: 2px solid #fff; */
+	display: none;
+}
+
+
+.img-wrapper 
+{
+	margin-top: 20px;
+	margin-left: -15px;
+	margin-right: -15px;
+	color: #fff;
+	font-size: 2em;
+	background-color: #5B5B5B;
+	padding: 15px;
+	border-radius: 15px;
+}
+
+
+
+.img-wrapper img
+{
+	height: 300px;
+	opacity: 1;
+	width: 300px;
+	margin: 0 auto;
+	object-fit: cover;
+}
+
+
+
+.body-demo, .body-deals-img
+{
+	min-width: 0;
+	display: table;
+
+	width: auto;
+	/*display: table;*/
+	padding: 0 0 0 0;
+	/*background: #EACE78;*/
+	border-radius: 15px;
+	margin-top: 5px;
+	/*border: 2px solid #5B5B5B;*/
+}
+
+.body-deals-img
+{
+	display: flex;
+	/*background-color: blue;*/
+	width: 100%;
+}
+
+.img-left
+{
+	display: inline-block;
+}
+
+.img-right
+{
+
+	display: inline-block;
+	font-size: .6em;
+	margin-left: 20px;
+	background-color: #EACE78;
+	padding: 10px;
+	border-radius: 15px;
+	/*border: 2px solid #fff;*/
+	color: #5B5B5B; 
+	height: 340px;
+	overflow: auto;
+}
+
+/*
+.info-text-style
+{
+	font-size: .5em;
+}*/
+
+
+.body-demo-inner
+{
+	width: 300px;
+	background: #EACE78;
+	border: 2px solid #5B5B5B;
+	border-radius: 15px;
+	color: #5B5B5B;
+}
+
+.body-demo-inner i
+{
+	transition: .3s ease;
+}
+
+.body-demo-inner i:hover
+{
+	color: #fff;
+}
+
+
+.demo-inner
+{
+	min-width: 0;
+	width: auto;
+	display: table;
+	margin: 0 auto;
+}
+
+
+.demo-wrapper
+{
+	min-width: 0;
+	width: auto;
+	/*display: table;*/
+	display: inline-block;
+}
+
+.demo-wrapper:hover .demo, .demo-wrapper:hover .demo-white
+{
+	opacity: 1;
+	cursor:pointer
+}
+
+
+.demo, .demo-white
+{
+	display: inline-block;
+	height: 30px;
+	width: 30px;
+	border-radius: 50px;
+	transition: .5s ease;
+	text-align: center;
+}
+
+.name-option
+{
+	min-width: 0;
+	width: auto;
+	display: table;
+	margin: 0 auto;
+}
+
+.demo-white
+{
+    opacity: 1;
+}
+
+.demo:first-of-type
+{
+	margin-right: 20px;
+}
+
+.demo:last-of-type
+{
+	margin-left: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.web-body span 
+{
+}*/
+
+
+
+
+
+
+
+

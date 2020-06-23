@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- The head should contain an appropriate title for your site -->
+    <head>
+        <title>Module 5 - Labo</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Style sheet (CSS) and JavaScript scripts necessary to use Bootstrap -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>   
+        <script src="https://kit.fontawesome.com/f45e40cf2b.js" crossorigin="anonymous"></script>
+ 
+
+        <!-- Your own additional style sheet -->
+        <link href="styles/style.css" rel="stylesheet" type="text/css">
+    </head>
+
+
+    <body>
+
+        <div class="wrapper">
+
+            <nav class="navbar navbar-light ">
+                <a class="navbar-brand">
+                    <i class="fas fa-biking bike-logo"></i>
+                    <h1>The Little Bike Shop</h1>
+                </a>
+            </nav>
+            <div class="row web-info">
+                <div class="col-sm-8 gre-banner">
+
+                    <h3>A little about us </h3>
+                    <span>We love bikes!</span><br>
+                    <span>Give us a call, or come in the shop and we will take care of all your bike needs.</span><br>
+                    <span>Alternetively, send us an email with any questions you may have and we will get back to you.</span>
+
+                </div>
+                <div class="col-sm-4 yel-banner" >
+
+                    <h3>Our information</h3>
+                    <span>Phone number : (613)-111 1111</span><br>
+                    <span>Address : 444 Something street</span><br>
+                    <span>Email : something@gmail.ca</span>
+
+                </div>
+            </div>
+
+            <div class="web-body">
+
+                <div class="row service-row ">
+                    <div class="col-sm-3 option bike-opt">
+
+                        <a href="#bike-info">
+                        <div class="span-wrapper bike-span-wrapper" data-toggle="collapse" href="#bike">
+                            <span>Buy a bike</span>
+                        </div>
+                        </a>
+
+                        <div id="bike" class="collapse show">
+                            <img src="images/iu.jpeg" alt="bike" width="100%">
+                        </div>
+                    </div>
+
+                    <div class="col-sm-3 option wheels-opt">
+                        <a href="#wheels-info">
+                        <div class="span-wrapper wheels-span-wrapper" data-toggle="collapse" href="#wheels">
+                            <span>Change wheels</span>
+                        </div>
+                        </a>
+                        <div id="wheels" class="collapse show">
+                            <img src="images/iu-1.jpeg" alt="wheels" width="100%">
+                        </div>
+                    </div>
+                    <div class="col-sm-3 option breaks-opt">
+                        <a href="#breaks-info">
+                        <div class="span-wrapper breaks-span-wrapper" data-toggle="collapse" href="#breaks">
+                            <span>Change breaks</span>
+                        </div>
+                        </a>
+                        <div id="breaks" class="collapse show">
+                            <img src="images/iu-2.jpeg" alt="breaks" width="100%">
+                        </div>
+
+                    </div>
+                    <div class="col-sm-3 option frame-opt">
+                        <a href="#frame-info">
+                        <div class="span-wrapper frame-span-wrapper" data-toggle="collapse" href="#frame">
+                            <span>Tune up frame</span>
+                        </div>
+                        </a>
+                        <div id="frame" class="collapse show">
+                            <img src="images/iu-3.jpeg" alt="frame" width="100%">
+                        </div>
+
+                    </div>
+
+
+                </div>  
+
+            </div>
+
+            <div class="option-info bike-option-info" id="bike-info">
+                
+
+                <h3>Buy a bike</h3><br>
+                <h5>Price :</h5>
+                <span>$500 - $3000</span><br><br>
+                <h5>Expert :</h5>
+                <span>All workers can assist you.</span><br><br>
+                <h5>Description :</h5>
+                <span>Vestibulum in auctor elit, sed vehicula sapien. In et convallis sem, sit amet imperdiet metus. Proin pharetra rutrum ex vitae rhoncus. Proin gravida, nisl non iaculis viverra, odio justo suscipit nunc, et molestie quam nulla a velit. Donec sapien quam, placerat quis nibh et, iaculis cursus dui. Curabitur at consequat dolor. Morbi cursus volutpat sem, at molestie dolor cursus at.
+                </span>
+
+            </div>
+
+
+            <div class="option-info wheels-option-info" id="wheels-info">
+
+                <h3>Change wheels</h3><br>
+                <h5>Price :</h5>
+                <span>$40</span><br><br>
+                <h5>Expert :</h5>
+                <span>All workers can assist you.</span><br><br>
+                <h5>Description :</h5>
+                <span>Etiam porttitor nunc a justo consectetur, eu bibendum ligula aliquet. Nullam id egestas leo, a semper ante. Curabitur congue, velit non maximus ornare, diam nisl feugiat arcu, placerat hendrerit risus est at leo. Nullam luctus egestas tellus, quis fermentum mi malesuada eleifend. Morbi venenatis ipsum vitae tincidunt sagittis. 
+                </span>
+
+            </div>
+
+
+
+            <div class="option-info breaks-option-info" id="breaks-info">
+                
+                <h3>Change breaks</h3><br>
+                <h5>Price :</h5>
+                <span>$50</span><br><br>
+                <h5>Expert :</h5>
+                <span>All workers can assist you.</span><br><br>
+                <h5>Description :</h5>
+                <span>Donec sit amet leo nibh. Nulla lacinia nibh ligula, vitae egestas quam rutrum ut. Vestibulum efficitur orci sapien, venenatis condimentum libero fringilla eget. Etiam orci ipsum, elementum sit amet dui nec, pharetra molestie enim. Etiam interdum viverra enim ut consectetur. Quisque nec iaculis mauris.
+                </span>
+
+            </div>
+
+
+            <div class="option-info frame-option-info" id="frame-info">
+                
+                <h3>Tune up frame</h3><br>
+                <h5>Price :</h5>
+                <span>$500</span><br><br>
+                <h5>Expert :</h5>
+                <span>All workers can assist you.</span><br><br>
+                <h5>Description :</h5>
+                <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus erat massa, facilisis eu semper sit amet, mollis non lectus. Etiam tristique pellentesque semper. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla pellentesque viverra nibh, sed hendrerit purus tristique vitae. Etiam in arcu sit amet leo posuere sagittis.
+                </span>
+
+            </div>
+
+
+            <div class="img-wrapper">
+
+                <div class="body-deals-ismg-assistance-text-wrapper" onclick="openInfo(event, 'Deals')">
+
+                    <div class="body-deals-img">
+
+                        <div class="img-left">
+        
+                            <img src="images/erwin.jpg" alt="Henry">
+
+                            <div class="name-option">
+                                <span>Name : </span> <span>Henry Ford</span>
+                            </div>    
+
+                        </div>
+
+                        <div class="img-right">
+                            <span style="font-size: 1.5em;">
+                                About me :
+                            </span><br>
+                            <span class="info-text-style">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vitae est tincidunt mauris ultrices consectetur. Vivamus id nunc est. Praesent fermentum enim ex, at posuere tellus luctus quis. Suspendisse eu eros ligula. Pellentesque sed sem ac est facilisis volutpat. Nulla facilisi. Maecenas fermentum massa nisl. Cras non fermentum massa, sed vestibulum enim. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla congue magna in mauris tristique, in condimentum tellus sagittis. Nulla accumsan lorem nec ipsum molestie, et placerat orci viverra. Maecenas tempus commodo augue eget blandit. Proin orci massa, maximus quis libero a, mollis congue metus. 
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="body-deals-img">
+
+                        <div class="img-left">
+        
+                            <img src="images/frank.jpg" alt="Frank">
+
+                            <div class="name-option">
+                                <span>Name : </span> <span>Frank Sins</span>
+                            </div>    
+
+                        </div>
+
+                        <div class="img-right">
+                            <span style="font-size: 1.5em;">
+                                About me :
+                            </span><br>
+                            <span class="info-text-style">
+                                Etiam sit amet rhoncus massa. Curabitur hendrerit elit sit amet congue pulvinar. In id mauris semper, fermentum odio et, scelerisque nibh. In posuere at nisl ac tincidunt. Praesent aliquet libero non ullamcorper laoreet. Curabitur varius risus ut risus pharetra tempor. Duis non turpis efficitur, convallis velit vel, posuere leo. Proin eleifend elit sit amet arcu hendrerit viverra. Sed sed risus lorem. Aenean et odio nunc. Nunc faucibus risus a ipsum ullamcorper molestie. Quisque suscipit arcu est, vel varius erat dapibus nec. Sed ut diam egestas, varius lorem ut, luctus ex.
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                    <div class="body-deals-img">
+
+                        <div class="img-left">
+        
+                            <img src="images/sam.jpg" alt="Sami">
+
+                            <div class="name-option">
+                                <span>Name : </span> <span>Sami Davis</span>
+                            </div>    
+
+                        </div>
+
+                        <div class="img-right">
+                            <span style="font-size: 1.5em;">
+                                About me :
+                            </span><br>
+                            <span class="info-text-style">
+                                Aliquam ac dui elementum, mattis lacus non, semper tortor. Aliquam mi libero, convallis in dolor vitae, pretium porta erat. Vivamus accumsan nunc nunc, at consectetur lectus pretium nec. Etiam in elementum mauris. Etiam nibh ligula, rutrum eget turpis ac, varius tincidunt dui. Aenean sit amet quam sit amet nunc volutpat mollis. Duis non ante mauris. Pellentesque maximus mauris nec elit finibus iaculis. Mauris sed massa urna. Aliquam gravida tortor ac massa dignissim, in porttitor felis pellentesque. Etiam fringilla arcu libero, nec ornare lorem consectetur quis. Aenean iaculis velit enim, sollicitudin blandit purus consequat ultricies. Pellentesque ultricies maximus orci non semper. Mauris eget enim est. Nam malesuada in velit sed varius. 
+                            </span>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="body-deals-img">
+                        <div class="img-left">
+        
+                            <img src="images/tuck.jpg" alt="Tuck">
+
+                            <div class="name-option">
+                                <span>Name : </span> <span>Tuck Ever</span>
+                            </div>    
+
+                        </div>
+
+                        <div class="img-right">
+                            <span style="font-size: 1.5em;">
+                                About me :
+                            </span><br>
+                            <span class="info-text-style">
+                                Pellentesque dignissim faucibus odio, vel lacinia ex. Aenean ligula felis, venenatis blandit tellus commodo, sodales consectetur nunc. Nam mattis in magna non sollicitudin. Sed sit amet nisl cursus, sagittis lorem id, faucibus justo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Ut ut ipsum sit amet ex pharetra tincidunt at id magna. Morbi fringilla posuere dolor sit amet maximus. 
+                            </span>
+
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="body-demo">
+
+                    <div class="body-demo-inner">
+                        
+                        <div class="demo-inner">
+                            
+                            <div class="demo-wrapper">
+                                <div id="demo-one" class="demo" onclick="plusDivs(-1)"><i class="fas fa-chevron-left"></i></div>
+                            </div>
+                            <div class="demo-wrapper">
+                                <div id="demo-two" class="demo" onclick="plusDivs(1)"><i class="fas fa-chevron-right"></i></div>
+                            </div>  
+
+                        </div>
+
+
+                    </div> 
+
+                </div>
+
+
+
+
+
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <div>
+                
+                <div>
+                    
+
+
+
+
+            <div class="row">
+
+                <h5>Enter information bellow </h5>  
+
+                <div class="col-sm-6"><br>                  
+                    <input type="text" name="name" placeholder="First Name">
+                    <!-- <input type="text" name="last-name" placeholder="Last Name"> -->
+                    <input type="text" name="email" placeholder="Email">
+                    <!-- <input type="text" name="num" placeholder="Telephone Number"> -->
+                    <br>
+                    <input type="date" id="start" name="trip-start">
+                    <select id="day" name="day">
+                        <option value="day">Buy or browse for bikes</option>
+                        <option value="day">Change wheels</option>
+                        <option value="day">Change breaks</option>
+                        <option value="day">tune up frame</option>
+                    </select><br>
+                    <button>Submit Information</button>
+
+
+                    <br>
+                </div>
+                <div class="col-sm-6">
+                    <input type="text" name="last-name" placeholder="Last Name">
+                    <input type="text" name="num" placeholder="Telephone Number">
+                </div>
+
+            </div>
+
+
+
+
+
+
+
+
+
+
+                </div>
+
+
+
+
+
+
+
+
+
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+    <script src="scripts/script.js"></script>
+    </body>
+</html>
