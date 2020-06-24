@@ -24,23 +24,6 @@ $(document).ready(function(){
   });
 });
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 var slideIndex = 1;
 showDivs(slideIndex);
 
@@ -79,6 +62,42 @@ function showDivs(n) {
 
 
 
+$("#datepicker").datepicker({
+    beforeShowDay: function(date) {
+        var day = date.getDay();
+        return [(day != 1 && day != 2), ''];
+    }
+});
+
+
+
+
+function swapProf() {
+	document.getElementById("emp-sel").options.length = 0;
+	// alert();
+	var elem = document.getElementById("emp-sel");
+	// alert();
+	var time = document.getElementById("selTime");
+	var opt = document.createElement('option');
+	var opt2 = document.createElement('option');
+	// alert(time.value);
+	if (time.value == "10-11" || time.value == "11-12" || time.value == "12-13") {
+		// alert(time.value);
+	    opt.value = "day";
+	    opt.innerHTML = "Henry Ford";
+	    elem.appendChild(opt);
+	    opt2.value = "day";
+	    opt2.innerHTML = "Frank Sins";
+	    elem.appendChild(opt2);
+	} else {
+	    opt.value = "day";
+	    opt.innerHTML = "Sami Davis";
+	    elem.appendChild(opt);
+	    opt2.value = "day";
+	    opt2.innerHTML = "Tuck Ever";
+	    elem.appendChild(opt2);
+	}
+}
 
 
 
@@ -100,3 +119,34 @@ function showDivs(n) {
 
 
 
+
+
+
+var disabledDays = ["3-3-2020","3-17-2020","4-2-2020","4-3-2020","4-4-2020","4-5-2020"];
+
+function nationalDays(date) {
+    var m = date.getMonth(), d = date.getDate(), y = date.getFullYear();
+    //console.log('Checking (raw): ' + m + '-' + d + '-' + y);
+    for (i = 0; i < disabledDays.length; i++) {
+        if($.inArray((m+1) + '-' + d + '-' + y,disabledDays) != -1 || new Date() > date) {
+            //console.log('bad:  ' + (m+1) + '-' + d + '-' + y + ' / ' + disabledDays[i]);
+            return [false];
+        }
+    }
+    //console.log('good:  ' + (m+1) + '-' + d + '-' + y);
+    return [true];
+}
+function noWeekendsOrHolidays(date) {
+    var noWeekend = jQuery.datepicker.noWeekends(date);
+    return noWeekend[0] ? nationalDays(date) : noWeekend;
+}
+
+jQuery(document).ready(function() {
+    jQuery('#dateTimeInput').datepicker({
+        minDate: new Date(2020, 5, 16),
+        maxDate: new Date(2020, 6, 31),
+        dateFormat: 'DD, MM, d, yy',
+        constrainInput: true,
+        beforeShowDay: noWeekendsOrHolidays
+    });
+});

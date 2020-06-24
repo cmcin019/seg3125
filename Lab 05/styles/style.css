@@ -79,6 +79,28 @@ nav h1
 	border-radius: 15px;
 }
 
+.service-row a
+{
+	text-decoration: none;
+	color: #5B5B5B;
+
+}
+
+.service-row a span
+{
+	transition: .3s ease;
+	border-radius: 15px;
+	border: 2px solid #EACE78;
+	padding: 5px;
+}
+
+
+.service-row a:hover span
+{
+	border: 2px solid #5B5B5B;
+}
+
+
 img
 {
 	/*margin-top: 10px;*/
@@ -117,7 +139,7 @@ img
 	border-radius: 15px;
 	margin-top: 20px;
 	/*border: 2px solid #fff; */
-	display: none;
+	/*display: none;*/
 }
 
 
@@ -272,6 +294,38 @@ img
 }
 
 
+.name-inp div
+{
+	display: inline-block;
+	width: 100%;
+}
+
+.name-inp input[type=text], input [type=date], input[type=tel]
+{
+	width: 100%;
+}
+
+.name-inp select
+{
+	width: 100%;
+	background: #fff;
+	/*font-size: 1.3em;*/
+	padding: 5px;
+}
+
+
+
+
+.appointment-wrraper
+{
+	background-color: #5B5B5B;
+	color: #fff;
+	margin-left: -20px;
+	margin-right: -20px;
+	padding: 15px;
+	margin-top: 20px;
+	border-radius: 15px;
+}
 
 
 
@@ -281,16 +335,17 @@ img
 
 
 
-
-
-
-
-
-
-
-
-
-
+.website_footer
+{
+	margin-top: 20px;
+	font-size: .8em;
+	padding: 10px;
+	background-color: #5B5B5B;
+	color: #fff;
+	margin-left: -20px;
+	margin-right: -20px;
+	border-radius: 15px 15px 0 0;
+}
 
 
 
@@ -308,4 +363,23 @@ img
 
 
 
+.option-info a, button
+{
+	text-decoration: none;
+	font-size: 1.5em;
+	color: #EACE78;
+	border: 2px solid #EACE78;
+	padding: 5px;
+	border-radius: 15px;
+	background: #5B5B5B;
+}
 
+.option-info a:hover, button:hover
+{
+	color: #fff;
+	border: 2px solid #fff;
+}
+/*button
+{
+	font-size: 
+}*/
