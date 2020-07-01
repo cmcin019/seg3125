@@ -1,0 +1,95 @@
+<html lang="en-US">
+<head>
+    <title>Survey Analysis</title>
+</head>
+
+<body>
+    <h1>Survey analysis</h1>
+    <h2>Which awnser best describes your thoughts of this User Interface?</h2>
+    <ul>
+    <% for (var i=0; i<results[0].length; i++){ %>
+        <li><%= results[0][i].question01 %> :  <%= results[0][i].count %></li>
+    <% } %>    
+    </ul>
+    <h2>How strongly do you agree with the statment "User Interface should be updated"?</h2>
+    <ul>
+    <% for (var i=0; i<results[1].length; i++){ %>
+        <li><%= results[1][i].question02 %> :  <%= results[1][i].count %></li>
+    <% } %>    
+    </ul>
+    <h2>Please select all that are true.</h2>
+    <ul>
+    <% for (var i=0; i<results[2].length; i++){ %>
+        <li><%= results[2][i].question03 %> :  <%= results[2][i].count %></li>
+    <% } %>    
+    </ul>
+    <h2>What do you think are the strength of this User Interface?</h2>
+    <ul>
+    <% for (var i=0; i<results[3].length; i++){ %>
+        <li><%= results[3][i].question04 %> :  <%= results[3][i].count %></li>
+    <% } %>    
+    </ul>
+    <h2>What do you think are the flaws of this User Interface?</h2>
+    <ul>
+    <% for (var i=0; i<results[4].length; i++){ %>
+        <li><%= results[4][i].question05 %> :  <%= results[4][i].count %></li>
+    <% } %>    
+    </ul>
+    <h2>Please add any additional comments bellow.</h2>
+    <ul>
+    <% for (var i=0; i<results[5].length; i++){ %>
+        <li><%= results[5][i].question06 %> :  <%= results[5][i].count %></li>
+    <% } %>    
+    </ul>
+
+    <h2>Birth day</h2>
+    <ul>
+    <% for (var i=0; i<results[6].length; i++){ %>
+        <li><%= results[6][i].day %> :  <%= results[6][i].count %></li>
+    <% } %>    
+    </ul>
+    <h2>Month of birs</h2>
+    <ul>
+    <% for (var i=0; i<results[7].length; i++){ %>
+        <li><%= results[7][i].month %> :  <%= results[7][i].count %></li>
+    <% } %>    
+    </ul>
+    <h2>birth_year</h2>
+    <ul>
+    <% for (var i=0; i<results[8].length; i++){ %>
+        <li><%= results[8][i].birth_year %> :  <%= results[8][i].count %></li>
+    <% } %>    
+    </ul>
+    <h2>sexe</h2>
+    <ul>
+    <% for (var i=0; i<results[9].length; i++){ %>
+        <li><%= results[9][i].sexe %> :  <%= results[9][i].count %></li>
+    <% } %>    
+    </ul>
+    <h2>schoolyear</h2>
+    <ul>
+    <% for (var i=0; i<results[10].length; i++){ %>
+        <li><%= results[10][i].schoolyear %> :  <%= results[10][i].count %></li>
+    <% } %>    
+    </ul>
+    <h2>faculty</h2>
+    <ul>
+    <% for (var i=0; i<results[11].length; i++){ %>
+        <li><%= results[11][i].faculty %> :  <%= results[11][i].count %></li>
+    <% } %>    
+    </ul>
+    <h2>studentNumber</h2>
+    <ul>
+    <% for (var i=0; i<results[12].length; i++){ %>
+        <li><%= results[12][i].studentNumber %> :  <%= results[12][i].count %></li>
+    <% } %>    
+    </ul>
+    <h2>ui_strength</h2>
+    <ul>
+    <% for (var i=0; i<results[13].length; i++){ %>
+        <li><%= results[13][i].ui_strength %> :  <%= results[13][i].count %></li>
+    <% } %>    
+    </ul>
+    
+</body>
+</html>
