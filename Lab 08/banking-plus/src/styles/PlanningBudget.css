@@ -1,0 +1,50 @@
+
+
+.budget-wrapper
+{
+    /* background-color: red; */
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #9e9e9e;
+    margin-top: 60px;
+}
+
+.budget-header
+{
+    /* background-color: blue; */
+    font-size: 20px;
+    width: 100%;
+}
+
+.budget-header span:last-of-type
+{
+    float: right;
+}
+
+.budget-item:hover
+{
+    cursor: pointer;
+    color: red;
+}
+
+.budget-wrapper li
+{
+    margin-top: 5px;
+}
+
+.budget-wrapper li span:last-of-type, #total
+{
+    float: right;
+    margin-bottom: 5px;
+}
+
+.btn
+{
+    width: 100%;
+}
+
+.fc-theme-standard .fc-scrollgrid
+{
+    border-radius: 10px;
+    border: 1px solid #9e9e9e;
+}

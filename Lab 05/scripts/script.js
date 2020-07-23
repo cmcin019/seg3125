@@ -113,40 +113,24 @@ function swapProf() {
 
 
 
+// https://jsfiddle.net/dae4y126/
+
+function dateLoad(argument) {
+
+var today = new Date();
+var dd = today.getDate();
+var mm = today.getMonth()+1; //January is 0!
+var yyyy = today.getFullYear();
+ if(dd<10){
+        dd='0'+dd
+    } 
+    if(mm<10){
+        mm='0'+mm
+    } 
+
+today = yyyy+'-'+mm+'-'+dd;
+document.getElementById("datefield").setAttribute("min", today);
 
 
-
-
-
-
-
-
-
-var disabledDays = ["3-3-2020","3-17-2020","4-2-2020","4-3-2020","4-4-2020","4-5-2020"];
-
-function nationalDays(date) {
-    var m = date.getMonth(), d = date.getDate(), y = date.getFullYear();
-    //console.log('Checking (raw): ' + m + '-' + d + '-' + y);
-    for (i = 0; i < disabledDays.length; i++) {
-        if($.inArray((m+1) + '-' + d + '-' + y,disabledDays) != -1 || new Date() > date) {
-            //console.log('bad:  ' + (m+1) + '-' + d + '-' + y + ' / ' + disabledDays[i]);
-            return [false];
-        }
-    }
-    //console.log('good:  ' + (m+1) + '-' + d + '-' + y);
-    return [true];
-}
-function noWeekendsOrHolidays(date) {
-    var noWeekend = jQuery.datepicker.noWeekends(date);
-    return noWeekend[0] ? nationalDays(date) : noWeekend;
 }
 
-jQuery(document).ready(function() {
-    jQuery('#dateTimeInput').datepicker({
-        minDate: new Date(2020, 5, 16),
-        maxDate: new Date(2020, 6, 31),
-        dateFormat: 'DD, MM, d, yy',
-        constrainInput: true,
-        beforeShowDay: noWeekendsOrHolidays
-    });
-});
